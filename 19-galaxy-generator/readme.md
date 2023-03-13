@@ -1,6 +1,6 @@
 # Galaxy
 
-<img src="../img/19.mov">
+https://user-images.githubusercontent.com/28670581/224842741-8307992e-f3bb-4d5c-aaed-078bc24ad014.mp4
 
 ## Setup
 
