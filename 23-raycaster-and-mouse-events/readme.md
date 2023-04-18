@@ -1,4 +1,4 @@
-# Three.js Journey
+# Mouse Events
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
