@@ -111,7 +111,7 @@ const generateGalaxy = () =>
         uniforms:
         {
             uTime: { value: 0 },
-            uSize: { value: 30 * renderer.getPixelRatio() }
+            uSize: { value: 8 * renderer.getPixelRatio() }
         },
     })
 
