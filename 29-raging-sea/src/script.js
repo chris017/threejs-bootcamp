@@ -25,8 +25,8 @@ const scene = new THREE.Scene()
 const waterGeometry = new THREE.PlaneGeometry(2, 2, 512, 512)
 
 //Colors
-debugObject.depthColor = '#186691'
-debugObject.surfaceColor = '#9bd8ff'
+debugObject.depthColor = '#18918f'
+debugObject.surfaceColor = '#94f8ff'
 
 // Material
 const waterMaterial = new THREE.ShaderMaterial({
@@ -34,15 +34,15 @@ const waterMaterial = new THREE.ShaderMaterial({
     fragmentShader: waterFragmentShader,
     uniforms:{
         uTime: { value: 0 },
-        uBigWavesElevation: { value: 0.2 },
-        uBigWavesFrequency: { value: new THREE.Vector2(4, 1.5) },
+        uBigWavesElevation: { value: 0.05 },
+        uBigWavesFrequency: { value: new THREE.Vector2(4, 4) },
         uBigWavesSpeed: { value: 0.75 },
         uDepthColor: { value: new THREE.Color(debugObject.depthColor) },
         uSurfaceColor: { value: new THREE.Color(debugObject.surfaceColor) },
         uColorOffset: { value: 0.08 },
-        uColorMultiplier: { value: 5 },
+        uColorMultiplier: { value: 10 },
         uSmallWavesElevation: { value: 0.15 },
-        uSmallWavesFrequency: { value: 3 },
+        uSmallWavesFrequency: { value: 5 },
         uSmallWavesSpeed: { value: 0.2 },
         uSmallIterations: { value: 4 },
     }
